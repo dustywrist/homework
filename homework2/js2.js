@@ -49,9 +49,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let password = prompt("введите пароль:");
     
     if (login === "admin" && password === "12345") {
-        alert("приветик бро!");
+        alert("лошпед привет!");
     } else {
-        alert("кажется ты не мой бро");
+        alert("о так ты еще и тупой");
     }
     
     /* задача 6 */
@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let number2 = parseInt(prompt("введите число:"));
     
     if (number2 > 100) {
-        alert("биг число");
+        alert("люблю больших");
     } else if (number2 < 100) {
-        alert("мини число");
+        alert("не люблю больших");
     } else {
         alert("100!");
     }
